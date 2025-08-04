@@ -34,4 +34,5 @@ def scrape_books():
 
 
 if __name__ == '__main__':
-    app.run(debug=True, port=3000)
+
+    app.run(debug=false, port=3000, host="0.0.0.0")
