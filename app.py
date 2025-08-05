@@ -30,7 +30,7 @@ def index():
 
 if __name__ == '__main__':
 
-    app.run(debug=True, port=3000)
+    app.run(debug=False, port=3000, host="0.0.0.0")
 
     #df = pd.DataFrame(books_data,columns=['Name','Price','Availability'])
     #return render_template("index.html",table=df.to_html(index=False,classes="table table-striped"))
